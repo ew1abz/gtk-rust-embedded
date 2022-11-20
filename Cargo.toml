@@ -1,0 +1,24 @@
+[package]
+name = "gtk-rs-test"
+version = "0.1.0"
+authors = ["Vladimir K <ew1abz@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#async-channel = "1.6.1"
+#cascade = "1.0.0"
+#gdk = "0.7.0"
+#glib = "0.14.2"
+#gtk = { version = "0.14.0", features = ["v3_22"] }
+#gdk-wayland = { git = "https://github.com/gtk-rs/gtk4-rs.git", package = "gdk4-wayland" }
+glib = "0.15.12"
+gtk = { version = "0.15.5" }
+gdk-pixbuf = "0.15.11"
+chrono = "0.4.20"
+rand = "0.8.5"
+itertools = "0.10.3"
+
+[build-dependencies]
+build-target = "0.4.*"

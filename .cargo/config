@@ -1,0 +1,8 @@
+[build]
+target = "armv7-unknown-linux-gnueabihf"
+
+[env]
+PKG_CONFIG_SYSROOT_DIR_armv7_unknown_linux_gnueabihf = "/home/user/Projects/STM32MPU-v4.0.0/Developer-Package/SDK/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi"
+
+[target.armv7-unknown-linux-gnueabihf]
+rustflags = ["-C", "link-arg=--sysroot=/home/user/Projects/STM32MPU-v4.0.0/Developer-Package/SDK/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi"] 
